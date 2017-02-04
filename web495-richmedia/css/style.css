@@ -1,0 +1,87 @@
+
+* {  
+	margin:0 auto; 
+	padding:0;
+	text-decoration: none;
+}
+
+body {
+  background: url(../img/imagen.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+	background-image: url(../img/tweed.png);
+	width: 979px;
+	height: 150px;
+}
+
+header h2 {
+	color: #CC7414; 
+	text-shadow: grey 0.1em 0.1em 0.2em;
+	margin-top: -120px;
+	padding-left: 20px;
+	z-index: 5;
+	font-family: 'Oswald', sans-serif;
+}
+
+#PageWrapper { 
+	min-width: 981px;
+	max-width: 960px; 
+}
+
+#MainContent
+{
+  /*
+    Defines the main content area. The #MainContent element has a minimum height of 500 pixels, but can grow if necessary.
+    The font-size is 80% of its parent element, which in this case comes down to 80% of the font
+    the user has specified as the default font in the browser.
+  */
+  font-size: 14px;
+  width: 960px;
+  float: left;
+  min-height: 500px;
+  padding: 10px;
+  background: url(../img/tweed.png);
+  height: 800px;
+  z-index: 1;
+  }
+
+
+#MainContent p {
+font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	font-size: 0.9em;
+	color: dimgrey;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+ }
+
+#footer p {
+font-family: 'Montserrat', sans-serif;
+  font-size: 0.7em;
+  color: #CC7414;
+  text-align: right;
+  padding: 10px;
+  margin: 0px;
+ }
+ 
+
+ p > img {
+	background-origin: padding-box ;
+	background-size: 230px 270px; 
+ }
+ 
+ #flash {
+ z-index: 5;
+ }
